@@ -65,8 +65,10 @@ This is a RESTful API for managing a simplified project management system. It al
    - Create a PostgreSQL database.
    - Update the `.env` file with your database credentials:
      ```env
-     DATABASE_URL="postgresql://user:password@localhost:5432/project_management"
+     DATABASE_URL="prisma-db-url"
      JWT_SECRET="your_jwt_secret"
+     PORT=5000
+     NODE_ENV='development'
      ```
 
 4. **Run Prisma schema push**:
